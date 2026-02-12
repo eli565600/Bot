@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 
 load_dotenv()
 
-TOKEN = '8213527939:AAGiFJ2UML-CAkeUnVvbJhah2iCwlqwBG2A'
+TOKEN = '8227539013:AAECLUP57jNAa_l9GSZGuBg5zNGk0RWrKVo'
 ADMIN_ID = 5722257275
 
 if not TOKEN:
