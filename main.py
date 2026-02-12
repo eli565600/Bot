@@ -47,7 +47,10 @@ async def forward_to_admin(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"🆔 ID: {user.id}\n\n"
         f"💬 Message:\n{text}"
     )
-
+    print("📩 הודעה חדשה לבוט\n\n"
+        f"👤 From: {user.first_name} (@{user.username})\n"
+        f"🆔 ID: {user.id}\n\n"
+        f"💬 Message:\n{text}")
     await context.bot.send_message(chat_id=ADMIN_ID, text=message)
     await update.message.reply_text("✅ נשלח לאדמין")
 
